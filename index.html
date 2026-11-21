@@ -105,315 +105,317 @@
 
     <div class="container mt-5">
       <h2 class="my-5">More Images</h2>
-      <div class="row g-4">
-        <div class="row row-cols-1 md:row-cols-2 lg:row-cols-3 g-4">
-          <div class="col">
-            <div class="card">
-              <img src="images/coffee-slide1.jpg" class="card-img-top w-100" alt="..." />
-              <div class="card-body d-flex flex-column align-items-center">
-                <h4 class="card-title">Card title</h4>
-                <div class="accordion w-100 accordion-gap">
-                  <details class="accordion-item" name="accordionExample" closed>
-                    <summary class="accordion-header">
-                      Accordion Item #1
-                      <svg
-                        class="accordion-icon"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 16 16"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      >
-                        <path d="m2 5 6 6 6-6" />
-                      </svg>
-                    </summary>
-                    <div class="accordion-body">
-                      This is a longer card with supporting text below as a natural lead-in to additional content. This content is
-                      a little bit longer.
-                    </div>
-                  </details>
-                  <button
-                    type="button"
-                    class="btn-solid theme-primary w-100"
-                    data-bs-toggle="dialog"
-                    data-bs-target="#slideDownDialog"
-                  >
-                    Slide down dialog
-                  </button>
-
-                  <dialog class="dialog dialog-slide-down" id="slideDownDialog">
-                    <div class="dialog-header">
-                      <h1 class="dialog-title">Slide down dialog</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
-                    </div>
-                    <div class="dialog-body">
-                      <p>This dialog slides down from the top of the viewport.</p>
-                    </div>
-                    <div class="dialog-footer">
-                      <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Close</button>
-                    </div>
-                  </dialog>
-                </div>
+      <div class="row row-cols-1 md:row-cols-2 lg:row-cols-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/card-img1.jpg" class="card-img-top w-100" alt="A wooden bench in a park with a tree behind it." />
+            <div class="card-body d-flex flex-column align-items-center">
+              <h4 class="card-title">A Quiet Coffee Break</h4>
+              <div class="accordion w-100 accordion-gap">
+                <details class="accordion-item" name="coffee-card-accordion">
+                  <summary class="accordion-header">
+                    Make the moment yours
+                    <svg
+                      class="accordion-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m2 5 6 6 6-6" />
+                    </svg>
+                  </summary>
+                  <div class="accordion-body">
+                    Settle in with a freshly brewed cup, a comfortable seat, and a few minutes to slow down.
+                  </div>
+                </details>
+                <button
+                  type="button"
+                  class="btn-solid theme-primary w-100"
+                  data-bs-toggle="dialog"
+                  data-bs-target="#coffeeBreakDialog"
+                >
+                  See our coffee break picks
+                </button>
+                <dialog class="dialog dialog-slide-down" id="coffeeBreakDialog" aria-labelledby="coffeeBreakDialogTitle">
+                  <div class="dialog-header">
+                    <h1 class="dialog-title" id="coffeeBreakDialogTitle">A better break starts here</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
+                  </div>
+                  <div class="dialog-body">
+                    <p>Pair your cup with a pastry and take a little time for yourself. We’ll have the coffee ready.</p>
+                  </div>
+                  <div class="dialog-footer">
+                    <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Sounds good</button>
+                  </div>
+                </dialog>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="col">
-            <div class="card">
-              <img src="images/coffee-slide1.jpg" class="card-img-top w-100" alt="..." />
-              <div class="card-body d-flex flex-column align-items-center">
-                <h4 class="card-title">Card title</h4>
-                <div class="accordion w-100 accordion-gap">
-                  <details class="accordion-item" name="accordionExample" closed>
-                    <summary class="accordion-header">
-                      Accordion Item #1
-                      <svg
-                        class="accordion-icon"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 16 16"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      >
-                        <path d="m2 5 6 6 6-6" />
-                      </svg>
-                    </summary>
-                    <div class="accordion-body">
-                      This is a longer card with supporting text below as a natural lead-in to additional content. This content is
-                      a little bit longer.
-                    </div>
-                  </details>
-                  <button
-                    type="button"
-                    class="btn-solid theme-primary w-100"
-                    data-bs-toggle="dialog"
-                    data-bs-target="#slideDownDialog"
-                  >
-                    Slide down dialog
-                  </button>
-
-                  <dialog class="dialog dialog-slide-down" id="slideDownDialog">
-                    <div class="dialog-header">
-                      <h1 class="dialog-title">Slide down dialog</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
-                    </div>
-                    <div class="dialog-body">
-                      <p>This dialog slides down from the top of the viewport.</p>
-                    </div>
-                    <div class="dialog-footer">
-                      <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Close</button>
-                    </div>
-                  </dialog>
-                </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="images/card-img2.jpg"
+              class="card-img-top w-100"
+              alt="A list of types of coffee ranging from light to extra dark, surrounded by coffee beans."
+            />
+            <div class="card-body d-flex flex-column align-items-center">
+              <h4 class="card-title">Find Your Roast</h4>
+              <div class="accordion w-100 accordion-gap">
+                <details class="accordion-item" name="coffee-card-accordion">
+                  <summary class="accordion-header">
+                    Light, medium, dark, or EXTRA dark?
+                    <svg
+                      class="accordion-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m2 5 6 6 6-6" />
+                    </svg>
+                  </summary>
+                  <div class="accordion-body">
+                    Lighter roasts are bright and lively, while darker roasts bring deeper, bolder flavours. Medium roasts sit
+                    comfortably between the two.
+                  </div>
+                </details>
+                <button type="button" class="btn-solid theme-primary w-100" data-bs-toggle="dialog" data-bs-target="#roastDialog">
+                  Explore roast options
+                </button>
+                <dialog class="dialog dialog-slide-down" id="roastDialog" aria-labelledby="roastDialogTitle">
+                  <div class="dialog-header">
+                    <h1 class="dialog-title" id="roastDialogTitle">Your roast, your way</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
+                  </div>
+                  <div class="dialog-body">
+                    <p>Tell our baristas what flavours you enjoy, and they can help you find a roast that suits your cup.</p>
+                  </div>
+                  <div class="dialog-footer">
+                    <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">I’ll ask a barista</button>
+                  </div>
+                </dialog>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="col">
-            <div class="card">
-              <img src="images/coffee-slide1.jpg" class="card-img-top w-100" alt="..." />
-              <div class="card-body d-flex flex-column align-items-center">
-                <h4 class="card-title">Card title</h4>
-                <div class="accordion w-100 accordion-gap">
-                  <details class="accordion-item" name="accordionExample" closed>
-                    <summary class="accordion-header">
-                      Accordion Item #1
-                      <svg
-                        class="accordion-icon"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 16 16"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      >
-                        <path d="m2 5 6 6 6-6" />
-                      </svg>
-                    </summary>
-                    <div class="accordion-body">
-                      This is a longer card with supporting text below as a natural lead-in to additional content. This content is
-                      a little bit longer.
-                    </div>
-                  </details>
-                  <button
-                    type="button"
-                    class="btn-solid theme-primary w-100"
-                    data-bs-toggle="dialog"
-                    data-bs-target="#slideDownDialog"
-                  >
-                    Slide down dialog
-                  </button>
-
-                  <dialog class="dialog dialog-slide-down" id="slideDownDialog">
-                    <div class="dialog-header">
-                      <h1 class="dialog-title">Slide down dialog</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
-                    </div>
-                    <div class="dialog-body">
-                      <p>This dialog slides down from the top of the viewport.</p>
-                    </div>
-                    <div class="dialog-footer">
-                      <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Close</button>
-                    </div>
-                  </dialog>
-                </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="images/card-img3.jpg"
+              class="card-img-top w-100"
+              alt="Hot water being poured into a brewing cup, filtering through coffee grounds."
+            />
+            <div class="card-body d-flex flex-column align-items-center">
+              <h4 class="card-title">Brewed with Care</h4>
+              <div class="accordion w-100 accordion-gap">
+                <details class="accordion-item" name="coffee-card-accordion">
+                  <summary class="accordion-header">
+                    A little about our brewing
+                    <svg
+                      class="accordion-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m2 5 6 6 6-6" />
+                    </svg>
+                  </summary>
+                  <div class="accordion-body">
+                    Freshly ground beans and carefully measured water help bring out the aroma and character in every cup.
+                  </div>
+                </details>
+                <button
+                  type="button"
+                  class="btn-solid theme-primary w-100"
+                  data-bs-toggle="dialog"
+                  data-bs-target="#brewingDialog"
+                >
+                  Learn about our brewing
+                </button>
+                <dialog class="dialog dialog-slide-down" id="brewingDialog" aria-labelledby="brewingDialogTitle">
+                  <div class="dialog-header">
+                    <h1 class="dialog-title" id="brewingDialogTitle">Freshly brewed for you</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
+                  </div>
+                  <div class="dialog-body">
+                    <p>We prepare each drink with care so the coffee’s aroma and flavour can shine through.</p>
+                  </div>
+                  <div class="dialog-footer">
+                    <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Back to the menu</button>
+                  </div>
+                </dialog>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <img src="images/coffee-slide1.jpg" class="card-img-top w-100" alt="..." />
-              <div class="card-body d-flex flex-column align-items-center">
-                <h4 class="card-title">Card title</h4>
-                <div class="accordion w-100 accordion-gap">
-                  <details class="accordion-item" name="accordionExample" closed>
-                    <summary class="accordion-header">
-                      Accordion Item #1
-                      <svg
-                        class="accordion-icon"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 16 16"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      >
-                        <path d="m2 5 6 6 6-6" />
-                      </svg>
-                    </summary>
-                    <div class="accordion-body">
-                      This is a longer card with supporting text below as a natural lead-in to additional content. This content is
-                      a little bit longer.
-                    </div>
-                  </details>
-                  <button
-                    type="button"
-                    class="btn-solid theme-primary w-100"
-                    data-bs-toggle="dialog"
-                    data-bs-target="#slideDownDialog"
-                  >
-                    Slide down dialog
-                  </button>
+        </div>
 
-                  <dialog class="dialog dialog-slide-down" id="slideDownDialog">
-                    <div class="dialog-header">
-                      <h1 class="dialog-title">Slide down dialog</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
-                    </div>
-                    <div class="dialog-body">
-                      <p>This dialog slides down from the top of the viewport.</p>
-                    </div>
-                    <div class="dialog-footer">
-                      <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Close</button>
-                    </div>
-                  </dialog>
-                </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/card-img4.jpg" class="card-img-top w-100" alt="A glass of milk being poured on a wooden desk." />
+            <div class="card-body d-flex flex-column align-items-center">
+              <h4 class="card-title">Coffee, Your Way</h4>
+              <div class="accordion w-100 accordion-gap">
+                <details class="accordion-item" name="coffee-card-accordion">
+                  <summary class="accordion-header">
+                    Choose your favourite
+                    <svg
+                      class="accordion-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m2 5 6 6 6-6" />
+                    </svg>
+                  </summary>
+                  <div class="accordion-body">
+                    Enjoy it black, add a splash of milk, or ask for your favourite espresso drink made just the way you like it.
+                  </div>
+                </details>
+                <button
+                  type="button"
+                  class="btn-solid theme-primary w-100"
+                  data-bs-toggle="dialog"
+                  data-bs-target="#customizeDialog"
+                >
+                  See ways to customize
+                </button>
+                <dialog class="dialog dialog-slide-down" id="customizeDialog" aria-labelledby="customizeDialogTitle">
+                  <div class="dialog-header">
+                    <h1 class="dialog-title" id="customizeDialogTitle">Make it yours</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
+                  </div>
+                  <div class="dialog-body">
+                    <p>Choose your size, milk, and sweetness when you order. Our team can help with the options.</p>
+                  </div>
+                  <div class="dialog-footer">
+                    <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Got it</button>
+                  </div>
+                </dialog>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="col">
-            <div class="card">
-              <img src="images/coffee-slide1.jpg" class="card-img-top w-100" alt="..." />
-              <div class="card-body d-flex flex-column align-items-center">
-                <h4 class="card-title">Card title</h4>
-                <div class="accordion w-100 accordion-gap">
-                  <details class="accordion-item" name="accordionExample" closed>
-                    <summary class="accordion-header">
-                      Accordion Item #1
-                      <svg
-                        class="accordion-icon"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 16 16"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      >
-                        <path d="m2 5 6 6 6-6" />
-                      </svg>
-                    </summary>
-                    <div class="accordion-body">
-                      This is a longer card with supporting text below as a natural lead-in to additional content. This content is
-                      a little bit longer.
-                    </div>
-                  </details>
-                  <button
-                    type="button"
-                    class="btn-solid theme-primary w-100"
-                    data-bs-toggle="dialog"
-                    data-bs-target="#slideDownDialog"
-                  >
-                    Slide down dialog
-                  </button>
-
-                  <dialog class="dialog dialog-slide-down" id="slideDownDialog">
-                    <div class="dialog-header">
-                      <h1 class="dialog-title">Slide down dialog</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
-                    </div>
-                    <div class="dialog-body">
-                      <p>This dialog slides down from the top of the viewport.</p>
-                    </div>
-                    <div class="dialog-footer">
-                      <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Close</button>
-                    </div>
-                  </dialog>
-                </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="images/card-img5.jpg"
+              class="card-img-top w-100"
+              alt="light pastries stacked on top of each other sitting on a plate on a wooden table."
+            />
+            <div class="card-body d-flex flex-column align-items-center">
+              <h4 class="card-title">A Perfect Pairing</h4>
+              <div class="accordion w-100 accordion-gap">
+                <details class="accordion-item" name="coffee-card-accordion">
+                  <summary class="accordion-header">
+                    Something on the side
+                    <svg
+                      class="accordion-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m2 5 6 6 6-6" />
+                    </svg>
+                  </summary>
+                  <div class="accordion-body">
+                    A buttery pastry or a sweet treat makes a lovely companion to the rich taste of coffee.
+                  </div>
+                </details>
+                <button
+                  type="button"
+                  class="btn-solid theme-primary w-100"
+                  data-bs-toggle="dialog"
+                  data-bs-target="#pairingDialog"
+                >
+                  Discover a coffee pairing
+                </button>
+                <dialog class="dialog dialog-slide-down" id="pairingDialog" aria-labelledby="pairingDialogTitle">
+                  <div class="dialog-header">
+                    <h1 class="dialog-title" id="pairingDialogTitle">A treat for your coffee break</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
+                  </div>
+                  <div class="dialog-body">
+                    <p>Ask us what’s fresh today and we’ll help you find a treat to go with your drink.</p>
+                  </div>
+                  <div class="dialog-footer">
+                    <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Maybe next time</button>
+                  </div>
+                </dialog>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="col">
-            <div class="card">
-              <img src="images/coffee-slide1.jpg" class="card-img-top w-100" alt="..." />
-              <div class="card-body d-flex flex-column align-items-center">
-                <h4 class="card-title">Card title</h4>
-                <div class="accordion w-100 accordion-gap">
-                  <details class="accordion-item" name="accordionExample" closed>
-                    <summary class="accordion-header">
-                      Accordion Item #1
-                      <svg
-                        class="accordion-icon"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 16 16"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      >
-                        <path d="m2 5 6 6 6-6" />
-                      </svg>
-                    </summary>
-                    <div class="accordion-body">
-                      This is a longer card with supporting text below as a natural lead-in to additional content. This content is
-                      a little bit longer.
-                    </div>
-                  </details>
-                  <button
-                    type="button"
-                    class="btn-solid theme-primary w-100"
-                    data-bs-toggle="dialog"
-                    data-bs-target="#slideDownDialog"
-                  >
-                    Slide down dialog
-                  </button>
-
-                  <dialog class="dialog dialog-slide-down" id="slideDownDialog">
-                    <div class="dialog-header">
-                      <h1 class="dialog-title">Slide down dialog</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
-                    </div>
-                    <div class="dialog-body">
-                      <p>This dialog slides down from the top of the viewport.</p>
-                    </div>
-                    <div class="dialog-footer">
-                      <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Close</button>
-                    </div>
-                  </dialog>
-                </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="images/card-img6.jpg"
+              class="card-img-top w-100"
+              alt="Two bags of coffee beans, one upright the other on it's side spilling out some beans. All on a plain white background"
+            />
+            <div class="card-body d-flex flex-column align-items-center">
+              <h4 class="card-title">Bring Home the Ritual</h4>
+              <div class="accordion w-100 accordion-gap">
+                <details class="accordion-item" name="coffee-card-accordion">
+                  <summary class="accordion-header">
+                    Take a little coffee shop home
+                    <svg
+                      class="accordion-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m2 5 6 6 6-6" />
+                    </svg>
+                  </summary>
+                  <div class="accordion-body">
+                    Make space in your day for a favourite mug, freshly brewed coffee, and a moment to enjoy it.
+                  </div>
+                </details>
+                <button
+                  type="button"
+                  class="btn-solid theme-primary w-100"
+                  data-bs-toggle="dialog"
+                  data-bs-target="#ritualDialog"
+                >
+                  Get tips for your home brew
+                </button>
+                <dialog class="dialog dialog-slide-down" id="ritualDialog" aria-labelledby="ritualDialogTitle">
+                  <div class="dialog-header">
+                    <h1 class="dialog-title" id="ritualDialogTitle">Enjoy a great cup at home</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
+                  </div>
+                  <div class="dialog-body">
+                    <p>
+                      Start with fresh coffee, clean equipment, and water just off the boil. Adjust the strength to match your
+                      taste.
+                    </p>
+                  </div>
+                  <div class="dialog-footer">
+                    <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Thanks for the tips</button>
+                  </div>
+                </dialog>
               </div>
             </div>
           </div>
